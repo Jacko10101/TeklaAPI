@@ -61,6 +61,7 @@ namespace CreateFittingAndCutsOnObject
             this.Controls.Add(this.beamCutsBTN);
             this.Controls.Add(this.beamBTN);
             this.Name = "Form1";
+            this.ShowInTaskbar = false;
             this.Text = "Form1";
             this.ResumeLayout(false);
 

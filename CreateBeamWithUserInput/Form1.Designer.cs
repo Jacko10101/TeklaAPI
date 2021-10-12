@@ -54,9 +54,9 @@ namespace CreateBeamWithUserInput
             // 
             // beamButton
             // 
-            this.beamButton.Location = new System.Drawing.Point(512, 176);
+            this.beamButton.Location = new System.Drawing.Point(448, 127);
             this.beamButton.Name = "beamButton";
-            this.beamButton.Size = new System.Drawing.Size(160, 57);
+            this.beamButton.Size = new System.Drawing.Size(174, 77);
             this.beamButton.TabIndex = 0;
             this.beamButton.Text = "Insert Beam";
             this.beamButton.UseVisualStyleBackColor = true;
@@ -65,7 +65,7 @@ namespace CreateBeamWithUserInput
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(77, 85);
+            this.label1.Location = new System.Drawing.Point(62, 50);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(36, 13);
             this.label1.TabIndex = 1;
@@ -75,7 +75,7 @@ namespace CreateBeamWithUserInput
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(28, 26);
+            this.label2.Location = new System.Drawing.Point(22, 9);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(127, 20);
             this.label2.TabIndex = 2;
@@ -84,7 +84,7 @@ namespace CreateBeamWithUserInput
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(333, 176);
+            this.label3.Location = new System.Drawing.Point(318, 141);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(51, 13);
             this.label3.TabIndex = 3;
@@ -93,7 +93,7 @@ namespace CreateBeamWithUserInput
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(593, 85);
+            this.label4.Location = new System.Drawing.Point(578, 50);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(32, 13);
             this.label4.TabIndex = 4;
@@ -102,7 +102,7 @@ namespace CreateBeamWithUserInput
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(471, 85);
+            this.label5.Location = new System.Drawing.Point(456, 50);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(35, 13);
             this.label5.TabIndex = 5;
@@ -111,7 +111,7 @@ namespace CreateBeamWithUserInput
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(340, 85);
+            this.label6.Location = new System.Drawing.Point(325, 50);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(44, 13);
             this.label6.TabIndex = 6;
@@ -120,7 +120,7 @@ namespace CreateBeamWithUserInput
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(206, 85);
+            this.label7.Location = new System.Drawing.Point(191, 50);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(42, 13);
             this.label7.TabIndex = 7;
@@ -128,35 +128,35 @@ namespace CreateBeamWithUserInput
             // 
             // profileTB
             // 
-            this.profileTB.Location = new System.Drawing.Point(49, 101);
+            this.profileTB.Location = new System.Drawing.Point(34, 66);
             this.profileTB.Name = "profileTB";
             this.profileTB.Size = new System.Drawing.Size(100, 20);
             this.profileTB.TabIndex = 8;
             // 
             // classTB
             // 
-            this.classTB.Location = new System.Drawing.Point(561, 101);
+            this.classTB.Location = new System.Drawing.Point(546, 66);
             this.classTB.Name = "classTB";
             this.classTB.Size = new System.Drawing.Size(100, 20);
             this.classTB.TabIndex = 9;
             // 
             // nameTB
             // 
-            this.nameTB.Location = new System.Drawing.Point(440, 101);
+            this.nameTB.Location = new System.Drawing.Point(425, 66);
             this.nameTB.Name = "nameTB";
             this.nameTB.Size = new System.Drawing.Size(100, 20);
             this.nameTB.TabIndex = 10;
             // 
             // materialTB
             // 
-            this.materialTB.Location = new System.Drawing.Point(312, 101);
+            this.materialTB.Location = new System.Drawing.Point(297, 66);
             this.materialTB.Name = "materialTB";
             this.materialTB.Size = new System.Drawing.Size(100, 20);
             this.materialTB.TabIndex = 11;
             // 
             // psTB
             // 
-            this.psTB.Location = new System.Drawing.Point(171, 101);
+            this.psTB.Location = new System.Drawing.Point(156, 66);
             this.psTB.Multiline = true;
             this.psTB.Name = "psTB";
             this.psTB.Size = new System.Drawing.Size(53, 20);
@@ -164,7 +164,7 @@ namespace CreateBeamWithUserInput
             // 
             // anTB
             // 
-            this.anTB.Location = new System.Drawing.Point(237, 127);
+            this.anTB.Location = new System.Drawing.Point(222, 92);
             this.anTB.Multiline = true;
             this.anTB.Name = "anTB";
             this.anTB.Size = new System.Drawing.Size(53, 20);
@@ -172,7 +172,7 @@ namespace CreateBeamWithUserInput
             // 
             // asTB
             // 
-            this.asTB.Location = new System.Drawing.Point(171, 127);
+            this.asTB.Location = new System.Drawing.Point(156, 92);
             this.asTB.Multiline = true;
             this.asTB.Name = "asTB";
             this.asTB.Size = new System.Drawing.Size(53, 20);
@@ -180,7 +180,7 @@ namespace CreateBeamWithUserInput
             // 
             // pnTB
             // 
-            this.pnTB.Location = new System.Drawing.Point(237, 101);
+            this.pnTB.Location = new System.Drawing.Point(222, 66);
             this.pnTB.Multiline = true;
             this.pnTB.Name = "pnTB";
             this.pnTB.Size = new System.Drawing.Size(53, 20);
@@ -193,7 +193,7 @@ namespace CreateBeamWithUserInput
             "Left",
             "Middle",
             "Right"});
-            this.planeCB.Location = new System.Drawing.Point(313, 191);
+            this.planeCB.Location = new System.Drawing.Point(298, 156);
             this.planeCB.Name = "planeCB";
             this.planeCB.Size = new System.Drawing.Size(84, 21);
             this.planeCB.TabIndex = 16;
@@ -201,7 +201,7 @@ namespace CreateBeamWithUserInput
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(206, 176);
+            this.label8.Location = new System.Drawing.Point(191, 141);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(49, 13);
             this.label8.TabIndex = 17;
@@ -210,7 +210,7 @@ namespace CreateBeamWithUserInput
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(77, 176);
+            this.label9.Location = new System.Drawing.Point(62, 141);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(47, 13);
             this.label9.TabIndex = 18;
@@ -223,7 +223,7 @@ namespace CreateBeamWithUserInput
             "Middle",
             "Front",
             "Behind"});
-            this.depthCB.Location = new System.Drawing.Point(188, 192);
+            this.depthCB.Location = new System.Drawing.Point(173, 157);
             this.depthCB.Name = "depthCB";
             this.depthCB.Size = new System.Drawing.Size(84, 21);
             this.depthCB.TabIndex = 19;
@@ -236,7 +236,7 @@ namespace CreateBeamWithUserInput
             "Top",
             "Back",
             "Below"});
-            this.rotationCB.Location = new System.Drawing.Point(58, 192);
+            this.rotationCB.Location = new System.Drawing.Point(43, 157);
             this.rotationCB.Name = "rotationCB";
             this.rotationCB.Size = new System.Drawing.Size(84, 21);
             this.rotationCB.TabIndex = 20;
@@ -245,7 +245,7 @@ namespace CreateBeamWithUserInput
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(684, 253);
+            this.ClientSize = new System.Drawing.Size(684, 224);
             this.Controls.Add(this.rotationCB);
             this.Controls.Add(this.depthCB);
             this.Controls.Add(this.label9);
