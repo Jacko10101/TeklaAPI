@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeklaHelloWorld", "TeklaHelloWorld\TeklaHelloWorld.csproj", "{074E7D4B-8BB2-4382-99DD-0D48FEA69B85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateBeam", "CreateBeam\CreateBeam.csproj", "{A41D4FD8-2666-4ABC-96AE-37CD3658EB47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateBeamWithPoints", "CreateBeamWithPoints\CreateBeamWithPoints.csproj", "{F8F93EC5-804E-4376-AE14-201537B41212}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateContourPlate", "CreateContourPlate\CreateContourPlate.csproj", "{67AFFD88-D5B2-4462-9487-DA96F55F97CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateBeamWithUserInput", "CreateBeamWithUserInput\CreateBeamWithUserInput.csproj", "{BDFEAF44-7A61-4B3B-A018-5DAE11BF89EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateBoltArray", "CreateBoltArray\CreateBoltArray.csproj", "{4494E0AD-6895-462A-B3A7-B97A94C7DA22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{074E7D4B-8BB2-4382-99DD-0D48FEA69B85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{074E7D4B-8BB2-4382-99DD-0D48FEA69B85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{074E7D4B-8BB2-4382-99DD-0D48FEA69B85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{074E7D4B-8BB2-4382-99DD-0D48FEA69B85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A41D4FD8-2666-4ABC-96AE-37CD3658EB47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A41D4FD8-2666-4ABC-96AE-37CD3658EB47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A41D4FD8-2666-4ABC-96AE-37CD3658EB47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A41D4FD8-2666-4ABC-96AE-37CD3658EB47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8F93EC5-804E-4376-AE14-201537B41212}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8F93EC5-804E-4376-AE14-201537B41212}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8F93EC5-804E-4376-AE14-201537B41212}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8F93EC5-804E-4376-AE14-201537B41212}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67AFFD88-D5B2-4462-9487-DA96F55F97CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67AFFD88-D5B2-4462-9487-DA96F55F97CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67AFFD88-D5B2-4462-9487-DA96F55F97CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67AFFD88-D5B2-4462-9487-DA96F55F97CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDFEAF44-7A61-4B3B-A018-5DAE11BF89EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDFEAF44-7A61-4B3B-A018-5DAE11BF89EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDFEAF44-7A61-4B3B-A018-5DAE11BF89EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDFEAF44-7A61-4B3B-A018-5DAE11BF89EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4494E0AD-6895-462A-B3A7-B97A94C7DA22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4494E0AD-6895-462A-B3A7-B97A94C7DA22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4494E0AD-6895-462A-B3A7-B97A94C7DA22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4494E0AD-6895-462A-B3A7-B97A94C7DA22}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5917E66A-A5D4-45E9-9FEB-6F1AFB2E2785}
+	EndGlobalSection
+EndGlobal
