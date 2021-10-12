@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateBeamWithUserInput", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateBoltArray", "CreateBoltArray\CreateBoltArray.csproj", "{4494E0AD-6895-462A-B3A7-B97A94C7DA22}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateFittingAndCutsOnObject", "CreateFittingAndCutsOnObject\CreateFittingAndCutsOnObject.csproj", "{4AA40613-8B58-4EDB-8A38-FD2CC23C4AFE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{4494E0AD-6895-462A-B3A7-B97A94C7DA22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4494E0AD-6895-462A-B3A7-B97A94C7DA22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4494E0AD-6895-462A-B3A7-B97A94C7DA22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AA40613-8B58-4EDB-8A38-FD2CC23C4AFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AA40613-8B58-4EDB-8A38-FD2CC23C4AFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AA40613-8B58-4EDB-8A38-FD2CC23C4AFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AA40613-8B58-4EDB-8A38-FD2CC23C4AFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
