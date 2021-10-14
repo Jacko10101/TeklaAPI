@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{074E7D4B-8BB2-4382-99DD-0D48FEA69B85}</ProjectGuid>
+    <ProjectGuid>{98171B64-DB45-477F-8882-CC7F1E276264}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>TeklaHelloWorld</RootNamespace>
     <AssemblyName>TeklaHelloWorld</AssemblyName>
@@ -50,7 +50,6 @@
     <Reference Include="Tekla.Application.Library, Version=2021.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
       <HintPath>..\packages\TeklaOpenAPI.2021.0.1\lib\Tekla.Application.Library.dll</HintPath>
       <Private>False</Private>
-      <Private>True</Private>
     </Reference>
     <Reference Include="Tekla.Structures, Version=2021.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
       <HintPath>..\packages\TeklaOpenAPI.2021.0.1\lib\Tekla.Structures.dll</HintPath>
@@ -59,22 +58,18 @@
     <Reference Include="Tekla.Structures.Analysis, Version=2021.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
       <HintPath>..\packages\TeklaOpenAPI.2021.0.1\lib\Tekla.Structures.Analysis.dll</HintPath>
       <Private>False</Private>
-      <Private>True</Private>
     </Reference>
     <Reference Include="Tekla.Structures.Catalogs, Version=2021.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
       <HintPath>..\packages\TeklaOpenAPI.2021.0.1\lib\Tekla.Structures.Catalogs.dll</HintPath>
       <Private>False</Private>
-      <Private>True</Private>
     </Reference>
     <Reference Include="Tekla.Structures.Datatype, Version=2021.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
       <HintPath>..\packages\TeklaOpenAPI.2021.0.1\lib\Tekla.Structures.Datatype.dll</HintPath>
       <Private>False</Private>
-      <Private>True</Private>
     </Reference>
     <Reference Include="Tekla.Structures.Dialog, Version=2021.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
       <HintPath>..\packages\TeklaOpenAPI.2021.0.1\lib\Tekla.Structures.Dialog.dll</HintPath>
       <Private>False</Private>
-      <Private>True</Private>
     </Reference>
     <Reference Include="Tekla.Structures.Drawing, Version=2021.0.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
       <HintPath>..\packages\TeklaOpenAPI.2021.0.1\lib\Tekla.Structures.Drawing.dll</HintPath>
@@ -90,19 +85,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\BeamApp\Form1.cs">
+    <Compile Include="Form1.cs">
       <SubType>Form</SubType>
-      <Link>Form1.cs</Link>
     </Compile>
-    <Compile Include="..\..\BeamApp\Form1.Designer.cs">
+    <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
-      <Link>Form1.Designer.cs</Link>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="..\..\BeamApp\Form1.resx">
+    <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
-      <Link>Form1.resx</Link>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

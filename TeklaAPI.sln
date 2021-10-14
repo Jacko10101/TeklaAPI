@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeklaHelloWorld", "TeklaHelloWorld\TeklaHelloWorld.csproj", "{074E7D4B-8BB2-4382-99DD-0D48FEA69B85}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateBeam", "CreateBeam\CreateBeam.csproj", "{A41D4FD8-2666-4ABC-96AE-37CD3658EB47}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateBeamWithPoints", "CreateBeamWithPoints\CreateBeamWithPoints.csproj", "{F8F93EC5-804E-4376-AE14-201537B41212}"
@@ -17,16 +15,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateBoltArray", "CreateBo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateFittingAndCutsOnObject", "CreateFittingAndCutsOnObject\CreateFittingAndCutsOnObject.csproj", "{4AA40613-8B58-4EDB-8A38-FD2CC23C4AFE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeklaHelloWorld", "TeklaHelloWorld\TeklaHelloWorld.csproj", "{98171B64-DB45-477F-8882-CC7F1E276264}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{074E7D4B-8BB2-4382-99DD-0D48FEA69B85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{074E7D4B-8BB2-4382-99DD-0D48FEA69B85}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{074E7D4B-8BB2-4382-99DD-0D48FEA69B85}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{074E7D4B-8BB2-4382-99DD-0D48FEA69B85}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A41D4FD8-2666-4ABC-96AE-37CD3658EB47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A41D4FD8-2666-4ABC-96AE-37CD3658EB47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A41D4FD8-2666-4ABC-96AE-37CD3658EB47}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -51,6 +47,10 @@ Global
 		{4AA40613-8B58-4EDB-8A38-FD2CC23C4AFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4AA40613-8B58-4EDB-8A38-FD2CC23C4AFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4AA40613-8B58-4EDB-8A38-FD2CC23C4AFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98171B64-DB45-477F-8882-CC7F1E276264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98171B64-DB45-477F-8882-CC7F1E276264}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98171B64-DB45-477F-8882-CC7F1E276264}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98171B64-DB45-477F-8882-CC7F1E276264}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

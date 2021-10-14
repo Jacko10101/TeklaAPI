@@ -120,7 +120,7 @@ namespace CreateBeamWithUserInput
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(191, 50);
+            this.label7.Location = new System.Drawing.Point(198, 50);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(42, 13);
             this.label7.TabIndex = 7;
@@ -156,10 +156,10 @@ namespace CreateBeamWithUserInput
             // 
             // psTB
             // 
-            this.psTB.Location = new System.Drawing.Point(156, 66);
+            this.psTB.Location = new System.Drawing.Point(173, 66);
             this.psTB.Multiline = true;
             this.psTB.Name = "psTB";
-            this.psTB.Size = new System.Drawing.Size(53, 20);
+            this.psTB.Size = new System.Drawing.Size(35, 20);
             this.psTB.TabIndex = 12;
             // 
             // anTB
@@ -167,15 +167,15 @@ namespace CreateBeamWithUserInput
             this.anTB.Location = new System.Drawing.Point(222, 92);
             this.anTB.Multiline = true;
             this.anTB.Name = "anTB";
-            this.anTB.Size = new System.Drawing.Size(53, 20);
+            this.anTB.Size = new System.Drawing.Size(35, 20);
             this.anTB.TabIndex = 13;
             // 
             // asTB
             // 
-            this.asTB.Location = new System.Drawing.Point(156, 92);
+            this.asTB.Location = new System.Drawing.Point(173, 92);
             this.asTB.Multiline = true;
             this.asTB.Name = "asTB";
-            this.asTB.Size = new System.Drawing.Size(53, 20);
+            this.asTB.Size = new System.Drawing.Size(35, 20);
             this.asTB.TabIndex = 14;
             // 
             // pnTB
@@ -183,7 +183,7 @@ namespace CreateBeamWithUserInput
             this.pnTB.Location = new System.Drawing.Point(222, 66);
             this.pnTB.Multiline = true;
             this.pnTB.Name = "pnTB";
-            this.pnTB.Size = new System.Drawing.Size(53, 20);
+            this.pnTB.Size = new System.Drawing.Size(35, 20);
             this.pnTB.TabIndex = 15;
             // 
             // planeCB

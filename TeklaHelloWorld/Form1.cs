@@ -14,21 +14,24 @@ namespace TeklaHelloWorld
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            // Create a model instance and check connection status
+            //Create a model instance and check the connection status
+
             Model model = new Model();
+
             if(!model.GetConnectionStatus())
             {
                 MessageBox.Show("Tekla structures not connected");
                 return;
             }
-            // Get model info and send a "Hello world" message
+
+            //Get model info and send a "Hello World" message
             ModelInfo modelInfo = model.GetInfo();
             string name = modelInfo.ModelName;
 
-            MessageBox.Show(string.Format("Hello World! your current model is named: {0}", name));
+            MessageBox.Show(string.Format("Hello world! your current model is named; {0}", name));
 
-            // Send a hello world message to the tekla structures user command prompt
-            Operation.DisplayPrompt(string.Format("Hello World! your current model is named: {0}", name));
+            //Send a hello world message to the tekla structures user command prompt
+            Operation.DisplayPrompt(string.Format("Hello world! your current model is named: {0}", name));
         }
     }
 }

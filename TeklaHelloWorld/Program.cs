@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Tekla.Structures;
 
-namespace CreateBeamWithUserInput
+namespace TeklaHelloWorld
 {
     static class Program
     {
@@ -17,9 +16,7 @@ namespace CreateBeamWithUserInput
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Form1 form1 = new Form1();
-            form1.Show(TeklaStructures.MainWindow);
-            Application.Run(form1);
+            Application.Run(new Form1());
         }
     }
 }
